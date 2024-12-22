@@ -1,0 +1,29 @@
+.herramientas-utilizadas {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.herramientas-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.herramienta {
+    background-color: #e2e8f0;
+    color: #4a5568;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    width: 100px;
+}
+
+.herramienta:hover {
+    cursor: pirate;
+    background-color: #4a4e69;
+    color: white;
+}
